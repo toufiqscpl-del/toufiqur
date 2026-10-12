@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of a geospatial data analyst and geographer working with GIS, remote sensing, spatial analysis, and cartography.">
+  <title>Your Name | Geospatial Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">⌖</span> <span>Your Name<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+        <a href="#experience">Experience</a><a href="#publications">Publications</a>
+        <a class="nav-contact" href="#contact">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> GEOSPATIAL DATA ANALYST · GEOGRAPHER</p>
+          <h1>Turning spatial data into <span class="gradient-text">meaningful insight.</span></h1>
+          <p class="hero-lead">I work at the intersection of geography, GIS, remote sensing, and data analysis to understand places, reveal patterns, and support better decisions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="button button-secondary" href="#contact">Let's connect</a>
+          </div>
+          <div class="hero-meta"><span>📍 Bangladesh</span><span>GIS · Remote Sensing · Spatial Analysis</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative abstract geospatial map illustration">
+          <div class="map-card">
+            <div class="map-topline"><span>SPATIAL INSIGHT</span><span class="map-live">● ANALYSIS MODE</span></div>
+            <svg class="map-svg" viewBox="0 0 520 420" role="img" aria-label="Abstract topographic contours and spatial data points">
+              <defs>
+                <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#8db6a6" stroke-width=".6" opacity=".3"/></pattern>
+                <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9d9c8"/><stop offset="1" stop-color="#6ba58c"/></linearGradient>
+              </defs>
+              <rect width="520" height="420" fill="url(#grid)"/>
+              <path d="M44 93 C95 42 145 74 179 110 S245 135 270 91 S355 42 390 86 S462 116 484 166 L453 225 C408 246 385 277 341 271 S270 307 238 344 S158 368 124 325 S70 281 58 230 S20 150 44 93Z" fill="url(#land)" opacity=".75"/>
+              <g fill="none" stroke="#3f806a" stroke-width="1.3" opacity=".8">
+                <path d="M50 117 C100 61 147 90 180 124 S242 148 275 105 S350 62 387 101 S448 131 466 171"/>
+                <path d="M55 142 C103 89 144 112 179 145 S239 173 278 128 S350 87 385 123 S440 154 459 190"/>
+                <path d="M67 168 C110 117 148 137 180 168 S237 195 282 153 S348 113 380 148 S430 178 448 210"/>
+                <path d="M80 196 C118 148 150 162 185 190 S238 219 287 180 S346 140 376 171 S420 200 434 230"/>
+                <path d="M95 226 C127 184 157 192 190 215 S244 242 292 206 S343 169 371 197 S408 224 418 250"/>
+                <path d="M118 258 C146 219 168 225 200 244 S249 268 299 234 S341 202 366 226 S391 248 401 270"/>
+                <path d="M145 289 C168 256 185 259 211 276 S257 295 306 262 S342 235 361 252 S378 272 384 290"/>
+              </g>
+              <path d="M30 310 C110 273 137 296 190 265 S286 245 333 195 S412 174 493 94" fill="none" stroke="#e98d52" stroke-width="3" stroke-dasharray="7 7"/>
+              <g fill="#fff" stroke="#e98d52" stroke-width="3">
+                <circle cx="30" cy="310" r="6"/><circle cx="190" cy="265" r="6"/><circle cx="333" cy="195" r="6"/><circle cx="493" cy="94" r="6"/>
+              </g>
+              <g fill="#214f42" font-size="10" font-family="monospace"><text x="34" y="330">SITE A</text><text x="343" y="184">SAMPLE POINT</text><text x="410" y="80">DESTINATION</text></g>
+              <g transform="translate(450 315)" stroke="#214f42" fill="none" stroke-width="2"><path d="M0 32 L12 0 L24 32 L12 24Z"/><path d="M12 24 V43"/></g>
+            </svg>
+            <div class="map-legend"><span><i class="legend-line"></i> Route / network</span><span><i class="legend-dot"></i> Spatial observation</span><span class="map-scale">0 ─── 5 km</span></div>
+          </div>
+          <div class="floating-tag tag-one">GIS + Remote Sensing</div><div class="floating-tag tag-two">Evidence-led geography</div>
+        </div>
+      </div>
+      <div class="container stats-row">
+        <div><strong>GIS</strong><span>Spatial data & mapping</span></div>
+        <div><strong>RS</strong><span>Earth observation</span></div>
+        <div><strong>QA/QC</strong><span>Data quality assurance</span></div>
+        <div><strong>GeoAI</strong><span>Research in progress</span></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container two-col">
+        <div><p class="eyebrow">01 / ABOUT</p><h2>A geographer's perspective.<br><span class="muted">An analyst's toolkit.</span></h2></div>
+        <div class="about-copy">
+          <p>I am a geospatial data analyst and geographer interested in using spatial data to explain real-world patterns. My work includes GIS data management, remote-sensing workflows, spatial quality control, mapping, and applied research.</p>
+          <p>I enjoy connecting field observations with geospatial evidence—whether that means validating mapped structures, examining land-use patterns, or exploring how spatial analysis can support environmental and public-health research.</p>
+          <div class="about-pills"><span>Curiosity</span><span>Spatial thinking</span><span>Reproducible workflows</span><span>Clear cartography</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / SELECTED WORK</p><h2>Projects & analyses</h2></div><p class="section-intro">A selection of GIS, remote sensing, fieldwork, and research projects. Replace the sample links and images with your own deliverables.</p></div>
+        <div class="filter-row" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All work</button><button class="filter-btn" data-filter="gis">GIS & QA/QC</button><button class="filter-btn" data-filter="remote-sensing">Remote sensing</button><button class="filter-btn" data-filter="research">Research</button><button class="filter-btn" data-filter="fieldwork">Fieldwork</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-category="gis">
+            <div class="project-visual visual-green"><span class="visual-label">GIS · QA/QC</span><svg viewBox="0 0 400 180" aria-hidden="true"><g fill="none" stroke="#a9d9c0" stroke-width="1.5"><path d="M-10 35 L85 15 135 52 210 30 270 65 340 35 420 55"/><path d="M-10 75 L70 60 130 88 205 70 270 100 340 77 420 95"/><path d="M-10 115 L85 100 140 128 220 112 280 142 350 120 420 135"/><path d="M-10 155 L85 140 140 165 220 150 280 174 350 158 420 170"/></g><g fill="#f1b57d"><circle cx="130" cy="88" r="5"/><circle cx="270" cy="100" r="5"/><circle cx="350" cy="120" r="5"/></g></svg></div>
+            <div class="project-body"><div class="project-tags"><span>GIS</span><span>Data validation</span></div><h3>Structure digitization & QA/QC</h3><p>3D structure digitization from UAV imagery, followed by quality checks to identify geometry and attribute issues in a structured GIS workflow.</p><div class="project-footer"><span>UASMaster · GIS QA/QC</span><a href="#contact" aria-label="Ask about structure digitization project">Discuss project ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="gis">
+            <div class="project-visual visual-sand"><span class="visual-label">LAND ZONING</span><svg viewBox="0 0 400 180" aria-hidden="true"><g stroke="#f7f0df" stroke-width="3"><path d="M15 20 L110 35 125 90 45 115Z" fill="#c6a77a"/><path d="M110 35 L205 12 235 65 125 90Z" fill="#8eae89"/><path d="M235 65 L325 30 390 72 340 130 250 115Z" fill="#d5bd8c"/><path d="M45 115 L125 90 180 145 110 175 20 160Z" fill="#8eae89"/><path d="M125 90 L235 65 250 115 180 145Z" fill="#df8f68"/><path d="M250 115 L340 130 315 175 180 145Z" fill="#9bb6a0"/></g><path d="M-5 132 L115 104 242 82 410 97" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="7 5"/></svg></div>
+            <div class="project-body"><div class="project-tags"><span>GIS</span><span>Land zoning</span></div><h3>Land zoning boundary QA</h3><p>Geo-matching and edge-matching checks for land-zoning layers, with error locations documented through screenshots and observations.</p><div class="project-footer"><span>Topology · Edge matching</span><a href="#contact">Discuss project ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="research">
+            <div class="project-visual visual-blue"><span class="visual-label">RESEARCH CONCEPT</span><svg viewBox="0 0 400 180" aria-hidden="true"><g fill="none" stroke="#94c5d9" stroke-width="1.4"><circle cx="200" cy="90" r="28"/><circle cx="200" cy="90" r="52"/><circle cx="200" cy="90" r="78"/><circle cx="200" cy="90" r="105"/></g><g fill="#e98d52"><circle cx="180" cy="72" r="5"/><circle cx="223" cy="83" r="5"/><circle cx="202" cy="115" r="5"/><circle cx="245" cy="52" r="4"/><circle cx="155" cy="118" r="4"/></g><path d="M180 72 L223 83 L202 115 L155 118 L180 72" fill="none" stroke="#e98d52" stroke-width="2"/></svg></div>
+            <div class="project-body"><div class="project-tags"><span>Remote sensing</span><span>GeoAI</span></div><h3>Landfill emissions & respiratory-risk research</h3><p>Research concept exploring multi-source remote sensing, GIS, and explainable machine learning to study environmental exposure patterns near a landfill.</p><div class="project-footer"><span>In progress · Research concept</span><a href="#contact">Discuss research ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="remote-sensing">
+            <div class="project-visual visual-purple"><span class="visual-label">MOVEMENT ANALYSIS</span><svg viewBox="0 0 400 180" aria-hidden="true"><rect x="32" y="15" width="336" height="150" rx="4" fill="none" stroke="#b8a7e5" stroke-width="2"/><path d="M200 15 V165 M32 90 H368" stroke="#b8a7e5" stroke-width="2"/><circle cx="200" cy="90" r="23" fill="none" stroke="#b8a7e5" stroke-width="2"/><g fill="#ef9e64" opacity=".8"><circle cx="90" cy="58" r="15"/><circle cx="110" cy="70" r="20"/><circle cx="140" cy="52" r="12"/><circle cx="250" cy="110" r="18"/><circle cx="277" cy="120" r="24"/><circle cx="300" cy="101" r="14"/><circle cx="225" cy="128" r="11"/></g><path d="M80 130 C130 105 150 30 215 55 S290 75 330 35" fill="none" stroke="#f5e8ff" stroke-width="2.5" stroke-dasharray="5 5"/></svg></div>
+            <div class="project-body"><div class="project-tags"><span>Python</span><span>Spatial visualization</span></div><h3>Football movement & heatmap simulation</h3><p>A personal GIS-and-football project using a pitch coordinate system to visualize simulated player movement. The output is illustrative, not optical tracking data.</p><div class="project-footer"><span>Python · Heatmaps · Animation</span><a href="#contact">Discuss project ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="fieldwork">
+            <div class="project-visual visual-terra"><span class="visual-label">FIELD OBSERVATIONS</span><svg viewBox="0 0 400 180" aria-hidden="true"><path d="M0 130 L70 88 130 112 190 45 245 78 315 30 400 70 V180 H0Z" fill="#c98d68"/><path d="M0 150 L90 118 150 145 225 95 300 126 360 90 400 105 V180 H0Z" fill="#9fbd9b"/><g fill="#fff4de"><circle cx="90" cy="68" r="5"/><circle cx="190" cy="45" r="5"/><circle cx="315" cy="30" r="5"/></g><path d="M90 68 L190 45 L315 30" fill="none" stroke="#fff4de" stroke-width="2" stroke-dasharray="5 5"/></svg></div>
+            <div class="project-body"><div class="project-tags"><span>Fieldwork</span><span>Data collection</span></div><h3>Field data collection & ground validation</h3><p>Add your field survey locations, methods, photos, GPS observations, survey forms, and examples of how field evidence improved your spatial datasets.</p><div class="project-footer"><span>GPS · Survey · Ground truth</span><a href="#contact">View field notes ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="remote-sensing">
+            <div class="project-visual visual-night"><span class="visual-label">EARTH OBSERVATION</span><svg viewBox="0 0 400 180" aria-hidden="true"><g opacity=".8"><path d="M0 35 L65 20 115 50 170 30 220 55 285 25 345 55 400 35 V0 H0Z" fill="#507f78"/><path d="M0 90 L55 70 110 100 165 72 220 105 280 76 340 100 400 78 V35 L345 55 285 25 220 55 170 30 115 50 65 20 0 35Z" fill="#8bb6a0"/><path d="M0 140 L60 110 115 142 180 112 240 145 300 115 360 145 400 130 V78 L340 100 280 76 220 105 165 72 110 100 55 70 0 90Z" fill="#d4bb7d"/></g><path d="M25 150 C80 125 125 165 180 132 S280 105 375 145" fill="none" stroke="#f4e5bd" stroke-width="2"/></svg></div>
+            <div class="project-body"><div class="project-tags"><span>Remote sensing</span><span>Raster analysis</span></div><h3>Satellite imagery & spatial pattern analysis</h3><p>Showcase an image classification, land-cover change, index calculation, suitability model, or raster-based analysis here. Include data sources and validation metrics.</p><div class="project-footer"><span>Raster workflows · Mapping</span><a href="#contact">View analysis ↗</a></div></div>
+          </article>
+        </div>
+        <p class="note">Portfolio tip: only publish work you are allowed to share. For employer or client projects, remove confidential data and use approved screenshots or generalized examples.</p>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="skills">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">03 / TOOLKIT</p><h2>Tools I use to make sense of space.</h2>
+        <p class="section-intro light-intro">Edit this list to reflect tools you can confidently use, and separate current skills from tools you are learning.</p>
+        <div class="skill-grid">
+          <div class="skill-card"><div class="skill-icon">⌘</div><h3>GIS & spatial analysis</h3><p>ArcGIS Pro · ArcGIS geodatabases · Spatial joins · Overlay analysis · Topology · QA/QC · Cartography</p></div>
+          <div class="skill-card"><div class="skill-icon">◉</div><h3>Remote sensing</h3><p>UAV imagery · Raster analysis · Image interpretation · Land-cover analysis · Ground validation</p></div>
+          <div class="skill-card"><div class="skill-icon">{ }</div><h3>Data & automation</h3><p>Python · pandas · ArcPy (if applicable) · Data cleaning · Workflow automation · SQL (add your level)</p></div>
+          <div class="skill-card"><div class="skill-icon">⌁</div><h3>Research & communication</h3><p>Research design · Spatial visualization · Technical reporting · Map layout · Scientific writing</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container two-col experience-layout">
+        <div><p class="eyebrow">04 / EXPERIENCE & EDUCATION</p><h2>Where I've been<br><span class="muted">and what I'm learning.</span></h2><p class="section-intro">Keep entries concise, specific, and focused on your contribution.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">MAY — PRESENT · UPDATE YEAR</p><h3>Assistant GIS Analyst</h3><p class="timeline-org">Sheltech Consultancy Pvt. Ltd.</p><ul><li>Digitize and review 3D structures using UAV imagery and UASMaster.</li><li>Perform GIS quality checks and document geometry or attribute issues.</li><li>Support geo-matching and edge-matching checks for land-zoning datasets.</li></ul></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">EDUCATION</p><h3>MSc in Geography and Environment</h3><p class="timeline-org">Jahangirnagar University</p><p>Examinations completed. Add your thesis title, research methods, and completion year when ready.</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">FIELDWORK / TRAINING</p><h3>Add a fieldwork, internship, or training entry</h3><p class="timeline-org">Organization · Location · Year</p><p>Describe the purpose, tools, and measurable outcome in two or three sentences.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="publications">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">05 / PUBLICATIONS</p><h2>Research & writing</h2></div><p class="section-intro">List published work, accepted papers, conference abstracts, and manuscripts in progress in clearly labeled categories.</p></div>
+        <div class="publication-list">
+          <article class="publication-item"><div class="pub-type">RESEARCH IN PROGRESS</div><div><h3>Modeling Respiratory Health Risk Associated with Landfill Emissions Using Multi-Source Remote Sensing and Explainable AI</h3><p>Research concept · Aminbazar, Dhaka, Bangladesh. Update the status, author list, methods, and link when the work is ready to share.</p></div><span class="pub-arrow">↗</span></article>
+          <article class="publication-item"><div class="pub-type">ADD PUBLICATION</div><div><h3>Your paper or conference title goes here</h3><p>Author(s) · Journal / Conference · Year · DOI or public URL</p><a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Add publication link ↗</a></div><span class="pub-arrow">↗</span></article>
+        </div>
+        <p class="note">Do not describe a manuscript as published unless it has actually been published. Use “in preparation” or “in progress” where appropriate.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <div><p class="eyebrow eyebrow-light">06 / GET IN TOUCH</p><h2>Have a spatial problem<br>worth exploring?</h2><p>I'm open to conversations about GIS projects, geospatial research, collaboration, and professional opportunities.</p></div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com"><span>Email</span><strong>your.email@example.com ↗</strong></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Connect professionally ↗</strong></a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><strong>Explore my code ↗</strong></a>
+          <a href="#" id="cvLink"><span>CV / Résumé</span><strong>Add your CV PDF file ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Your Name</span><span>Built with HTML, CSS & a little JavaScript · Hosted on GitHub Pages</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
