@@ -14,3 +14,7 @@
 - `assets/publications/` — your research PDFs
 
 Do not rename the `assets` folders unless you also update the paths in `index.html`.
+
+
+## Projects gallery updated
+The Projects section now displays all 20 uploaded project and fieldwork images from `assets/projects/`. Keep the `assets/projects` folder alongside `index.html` when publishing to GitHub Pages.
