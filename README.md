@@ -1,20 +1,11 @@
 # Toufiqur Rahman — Geospatial Portfolio
 
-## Copy/paste into GitHub
-1. Open your GitHub repository `toufiqur`.
-2. Upload the files and folders from this folder to the repository root (not the ZIP itself).
-3. Commit changes to `main`. GitHub Pages should publish the updated site.
+This GitHub Pages portfolio has been reorganized around a professional GIS portfolio layout: introduction, about, selected work, expertise, fieldwork, professional experience, education, research and contact. It is inspired by common geospatial portfolio patterns and the structure of the reference website, while using Toufiqur's own supplied content and assets.
 
-## Main code files
-- `index.html` — page content
-- `style.css` — layout and appearance; the larger name rule is at the bottom
-- `script.js` — navigation and project filters
-- `assets/profile.jpg` — your professional portrait
-- `assets/projects/` — your project images
-- `assets/publications/` — your research PDFs
+## Publish
+1. Upload the contents of this folder to the root of your GitHub repository (not the enclosing folder).
+2. Ensure `index.html`, `style.css`, `script.js`, and the `assets/` folder are at the repository root.
+3. In GitHub, open Settings → Pages and publish from your selected branch/root.
+4. After the commit, refresh the live page with Ctrl+F5.
 
-Do not rename the `assets` folders unless you also update the paths in `index.html`.
-
-
-## Projects gallery updated
-The Projects section now displays all 20 uploaded project and fieldwork images from `assets/projects/`. Keep the `assets/projects` folder alongside `index.html` when publishing to GitHub Pages.
+All image paths are relative. If you add a CV PDF, update the CV link in `index.html`.
