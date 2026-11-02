@@ -81,5 +81,61 @@ body {
 
 body a {
   transition: color 0.2s ease, background-color 0.2s ease;
+  
+/* ===== FIX LOW-CONTRAST TEXT IN DARK MODE ===== */
+
+/* 1. Contact button in the top navigation */
+.nav-contact {
+    background-color: #173d2b !important;
+    color: #ffffff !important;
+    border: 1px solid #4b9d76 !important;
+}
+
+.nav-contact a,
+.nav-links .nav-contact,
+.nav-links .nav-contact a {
+    color: #ffffff !important;
+}
+
+.nav-contact:hover {
+    background-color: #24583e !important;
+    color: #ffffff !important;
+}
+
+/* 2. "Let's connect" button below the introduction */
+.hero-actions .button-secondary,
+.hero-actions a.button-secondary {
+    background-color: #10231d !important;
+    color: #e8f5ee !important;
+    border: 1px solid #4b9d76 !important;
+}
+
+.hero-actions .button-secondary:hover,
+.hero-actions a.button-secondary:hover {
+    background-color: #1c3b2e !important;
+    color: #ffffff !important;
+}
+
+/* 3. Role label below your profile picture */
+.profile-caption {
+    background-color: #10231d !important;
+    color: #e8f5ee !important;
+    border: 1px solid #4b9d76 !important;
+}
+
+.profile-caption span,
+.profile-caption-dot {
+    color: #8de5b4 !important;
+}
+
+/* Keep the main site text readable */
+body {
+    color: #e8f0ec;
+}
+
+body a {
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
 }
 
