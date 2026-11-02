@@ -36,106 +36,34 @@ body{background:#0b1211;color:var(--ink)}
 .footer a{color:#eaf5ef}
 @media(max-width:780px){.nav-links{background:#101a17;border-bottom-color:#2b3b36}.nav-links a{color:#e8f0ed}}
 
-/* ===== DARK MODE VISIBILITY FIX ===== */
 
-/* Let's connect button */
-.hero-actions .button-secondary {
-  background: transparent !important;
-  color: #f1f5f3 !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
-}
+/* FIX: DARK BACKGROUNDS AND CLEAR TEXT */
 
-.hero-actions .button-secondary:hover {
-  background: rgba(255, 255, 255, 0.08) !important;
-  color: #a3f7bf !important;
-}
-
-/* Contact button in the navigation */
-.nav-links .nav-contact {
+.site-header .nav-links a.nav-contact {
   background: #173d2b !important;
-  color: #d7ffe5 !important;
-  border: 1px solid rgba(125, 235, 165, 0.3) !important;
+  color: #ffffff !important;
+  border: 1px solid #4b9d76 !important;
 }
 
-.nav-links .nav-contact:hover {
-  background: #22573b !important;
+.hero-actions a.button.button-secondary {
+  background: #10231d !important;
+  color: #ffffff !important;
+  border: 1px solid #4b9d76 !important;
+}
+
+.profile-art .profile-caption {
+  background: #10231d !important;
+  color: #ffffff !important;
+  border: 1px solid #4b9d76 !important;
+}
+
+.profile-art .profile-caption .profile-caption-dot {
+  background: #8de5b4 !important;
+}
+
+/* Keep button text readable on hover */
+.site-header .nav-links a.nav-contact:hover,
+.hero-actions a.button.button-secondary:hover {
+  background: #24583e !important;
   color: #ffffff !important;
 }
-
-/* Role text beneath the profile picture */
-.profile-caption {
-  background: rgba(12, 20, 18, 0.96) !important;
-  color: #f1f5f3 !important;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-.profile-caption span,
-.profile-caption-dot {
-  color: #a3f7bf;
-}
-
-/* Ensure links remain readable in dark mode */
-body {
-  color-scheme: dark;
-}
-
-body a {
-  transition: color 0.2s ease, background-color 0.2s ease;
-  
-/* ===== FIX LOW-CONTRAST TEXT IN DARK MODE ===== */
-
-/* 1. Contact button in the top navigation */
-.nav-contact {
-    background-color: #173d2b !important;
-    color: #ffffff !important;
-    border: 1px solid #4b9d76 !important;
-}
-
-.nav-contact a,
-.nav-links .nav-contact,
-.nav-links .nav-contact a {
-    color: #ffffff !important;
-}
-
-.nav-contact:hover {
-    background-color: #24583e !important;
-    color: #ffffff !important;
-}
-
-/* 2. "Let's connect" button below the introduction */
-.hero-actions .button-secondary,
-.hero-actions a.button-secondary {
-    background-color: #10231d !important;
-    color: #e8f5ee !important;
-    border: 1px solid #4b9d76 !important;
-}
-
-.hero-actions .button-secondary:hover,
-.hero-actions a.button-secondary:hover {
-    background-color: #1c3b2e !important;
-    color: #ffffff !important;
-}
-
-/* 3. Role label below your profile picture */
-.profile-caption {
-    background-color: #10231d !important;
-    color: #e8f5ee !important;
-    border: 1px solid #4b9d76 !important;
-}
-
-.profile-caption span,
-.profile-caption-dot {
-    color: #8de5b4 !important;
-}
-
-/* Keep the main site text readable */
-body {
-    color: #e8f0ec;
-}
-
-body a {
-    transition: color 0.2s ease, background-color 0.2s ease;
-}
-
-}
-
